@@ -13,5 +13,14 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
+
 import Header from "./Header";
-ReactDOM.render(<Header />, document.getElementById("head"));
+import Footer from "./Footer";
+ReactDOM.render(
+  <div>
+    {" "}
+    <Header />
+    <Footer />
+  </div>,
+  document.getElementById("root")
+);
