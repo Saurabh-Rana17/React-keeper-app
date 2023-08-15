@@ -2,6 +2,11 @@ import React from "react";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
-  return <p> copyright {year}</p>;
+  return (
+    <footer>
+      {" "}
+      <p> copyright ⓒ {year}</p>{" "}
+    </footer>
+  );
 }
 export default Footer;
